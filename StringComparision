@@ -1,0 +1,15 @@
+String str3 = new String("Kutty");
+String str4 = new String("Kutty");
+		 
+if(str3==str4) {
+	 System.out.println(" Same text");
+} 
+else
+	 System.out.println("Diff text");
+		 
+System.out.println("***");
+
+Output of the above code will be  - Diff text
+
+here  == operator compares the  references value of string variables and not the actual content. 
+So the reference of the 2 stings are not same and hence the output is Diff text.
